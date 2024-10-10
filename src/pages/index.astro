@@ -1,0 +1,30 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Badge from "../components/Badge.astro";
+import Linkedin from "../components/icons/Linkedin.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <section class="w-full mx-auto lg:w-[740px] mx-auto py-44">
+      <h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10">
+        Hey, soy Marcos Gomez <div class="flex justify-conter items-center">
+          <Badge>¡disponible para trabajar!</Badge>
+        </div>
+      </h1>
+      <h2 class="text-xl opacity-80">
+        soy un joven desarrollador web con muchas ganas de crecer
+        profecionalmente puedes ver mis experiencias en proyectos entrande al
+        apartado de proyectos en la parte superior
+      </h2>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/mateo-gomez-249747269/"
+            ><Linkedin class="w-6 h-6" /> linkedin</a
+          >
+        </li>
+      </ul>
+    </section>
+  </main>
+</Layout>
